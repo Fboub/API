@@ -2,13 +2,13 @@ import requests
 import os
 import json
 
-api_key = os.environ[C6015145C971485B928A]
-api_secret = os.environ[61D030B0DE9C4CED9083530ACDD12408]
+api_key = os.environ[FC51FA0EE7EC4052B032]
+api_secret = os.environ[E0045E4FBAEB4A15B05B68F25380E63F]
 url = 'https://api.urthecast.com/v1/consumers/apps/me/nice'
 
 r = requests.post(https://api.urthecast.com/v1/consumers/apps/me/aois,
     headers = { 'Content-Type': 'application/json' },
-    params = { 'api_key': C6015145C971485B928A, 'api_secret': 61D030B0DE9C4CED9083530ACDD12408 },
+    params = { 'api_key': FC51FA0EE7EC4052B032, 'api_secret': E0045E4FBAEB4A15B05B68F25380E63F },
     # Check out http://geojson.io for help with creating GeoJSON objects
     data = json.dumps({
         "name": "NICE",
