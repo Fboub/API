@@ -11,7 +11,7 @@ r = requests.post(https://api.urthecast.com/v1/consumers/apps/me/aois,
     params = { 'api_key': C8AE96ADAD654726AB52, 'api_secret': D86445AA3B0943748A0F7B165E7E8050 },
     # Check out http://geojson.io for help with creating GeoJSON objects
     data = json.dumps({
-        "name": "San Francisco",
+        "name": "NICE",
         "geometry": {
             "type": "Polygon",
             "coordinates": [
