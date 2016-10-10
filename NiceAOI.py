@@ -6,7 +6,7 @@ api_key = os.environ[FC51FA0EE7EC4052B032]
 api_secret = os.environ[E0045E4FBAEB4A15B05B68F25380E63F]
 url = 'https://api.urthecast.com/v1/consumers/apps/me/nice'
 
-r = requests.post(https://api.urthecast.com/v1/consumers/apps/me/aois,
+r = requests.post(https://api.urthecast.com/v1/consumers/apps/me/nice,
     headers = { 'Content-Type': 'application/json' },
     params = { 'api_key': FC51FA0EE7EC4052B032, 'api_secret': E0045E4FBAEB4A15B05B68F25380E63F },
     # Check out http://geojson.io for help with creating GeoJSON objects
@@ -60,6 +60,3 @@ r = requests.post(https://api.urthecast.com/v1/consumers/apps/me/aois,
         ]
       }
     }
-
-print "AOI Response:"
-print json.dumps(r.json(), indent=4, separators=(',', ': '))
